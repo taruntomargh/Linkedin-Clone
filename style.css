@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 136, 136);
+    /* font-size: 20px; */
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    padding: 2px;
+    /* width: 100px; */
+}
+
+.linkedin_img-searchImg_searchBar{
+    display: flex;
+    margin: 0px 0px 0px 200px;
+    background-color: black;
+
+}
+
+.linkedin-img{
+    margin: 7px 5px;
+    border: 2px solid blue;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.searchImg-searchBar{
+    display: flex;
+    background-color: rgb(134, 133, 133);
+    margin: 6px 0px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    color: white;
+    /* outline: none; */
+}
+
+.search-img{
+    width: 30px;
+}
+
+.searchBar{
+    border: none;
+    color: rgb(242, 242, 242);
+    background-color: rgb(134, 133, 133);
+    width: 220px;
+    /* width: 100px; */
+    /* outline: none; */
+}
+
+::placeholder{
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    margin: 0px 75px;
+    /* background-color: black; */
+
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+    /* justify-content: space-between; */
+}
+.navigation ul li{
+    margin: 0px 10px;
+    font-size: 15px;
+    background-color: black;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+    /* justify-content: space-between; */
+}
+
+.navigation ul li a{
+    background-color: black;
+}
+
+.navigation ul li img{
+    width: 35px;
+    display: block;
+    margin: auto;
+    background-color: black;
+}
+/* Header CSS ends */
+
+/* Container CSS starts */
+.container{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    /* border: 2px solid palegreen; */
+    background-color: rgb(15, 187, 38);
+    margin: 20px 200px;
+}
+
+.left-sidebar{
+    border: 4px solid slateblue;
+}
+
+.main{
+    border: 4px solid slateblue;
+}
+
+.right-sidebar{
+    border: 4px solid slateblue;
+}
